@@ -1,0 +1,1 @@
+WEKA Yazılım paketinde verilen 'iris.arff' veri seti ile kMeans öbekleyici için oluşturulan model dosyası "kMeans.model" sonucun text olarak yazılması içinse "kMeans.txt" dosyasına erişim yapabilirsiniz.

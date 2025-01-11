@@ -1,0 +1,1 @@
+WEKA Yazılım paketinde verilen 'iris.arff' veri seti ile AdaBoost sınıflandırıcı için oluşturulan model dosyası "AdaBoost.model" sonucun text olarak yazılması içinse "AdaBoost.txt" dosyasına erişim yapabilirsiniz. Ek olarak parametreler ve seçenekler kısmı için WEKA Yazılım paketinden alınmış "AdaBoostOptions.png" ekran görüntüsünde inceleyebilirsiniz.

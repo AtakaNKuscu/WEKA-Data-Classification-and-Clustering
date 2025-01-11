@@ -1,0 +1,1 @@
+WEKA Yazılım paketinde verilen 'iris.arff' veri seti ile NaiveBayes sınıflandırıcı için oluşturulan model dosyası "NaiveBayes.model" sonucun text olarak yazılması içinse "NaiveBayes.txt" dosyasına erişim yapabilirsiniz.

@@ -1,0 +1,1 @@
+WEKA Yazılım paketinde verilen 'iris.arff' veri seti ile k-NN sınıflandırıcı için oluşturulan model dosyası "kNN.model" sonucun text olarak yazılması içinse "kNN.txt" dosyasına erişim yapabilirsiniz. Ek olarak parametreler ve seçenekler kısmı için WEKA Yazılım paketinden alınmış "kNNoptions.png" ekran görüntüsünde inceleyebilirsiniz.

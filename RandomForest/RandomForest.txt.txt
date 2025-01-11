@@ -1,0 +1,116 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 200 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1 -depth 10
+Relation:     iris
+Instances:    150
+Attributes:   5
+              sepallength
+              sepalwidth
+              petallength
+              petalwidth
+              class
+Test mode:    split 60.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 200 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 10 -do-not-check-capabilities
+
+Time taken to build model: 0.02 seconds
+
+=== Predictions on test split ===
+
+    inst#     actual  predicted error prediction
+        1 1:Iris-setosa 1:Iris-setosa       1 
+        2 3:Iris-virginica 2:Iris-versicolor   +   0.795 
+        3 3:Iris-virginica 3:Iris-virginica       1 
+        4 2:Iris-versicolor 2:Iris-versicolor       1 
+        5 3:Iris-virginica 3:Iris-virginica       0.985 
+        6 3:Iris-virginica 3:Iris-virginica       1 
+        7 3:Iris-virginica 3:Iris-virginica       0.995 
+        8 2:Iris-versicolor 2:Iris-versicolor       1 
+        9 1:Iris-setosa 1:Iris-setosa       1 
+       10 2:Iris-versicolor 2:Iris-versicolor       0.9 
+       11 3:Iris-virginica 3:Iris-virginica       1 
+       12 2:Iris-versicolor 2:Iris-versicolor       1 
+       13 1:Iris-setosa 1:Iris-setosa       1 
+       14 3:Iris-virginica 3:Iris-virginica       0.99 
+       15 2:Iris-versicolor 2:Iris-versicolor       1 
+       16 1:Iris-setosa 1:Iris-setosa       1 
+       17 1:Iris-setosa 1:Iris-setosa       1 
+       18 2:Iris-versicolor 2:Iris-versicolor       1 
+       19 3:Iris-virginica 3:Iris-virginica       0.995 
+       20 2:Iris-versicolor 2:Iris-versicolor       1 
+       21 3:Iris-virginica 3:Iris-virginica       1 
+       22 1:Iris-setosa 1:Iris-setosa       1 
+       23 2:Iris-versicolor 2:Iris-versicolor       1 
+       24 2:Iris-versicolor 2:Iris-versicolor       0.98 
+       25 3:Iris-virginica 2:Iris-versicolor   +   0.925 
+       26 3:Iris-virginica 3:Iris-virginica       0.99 
+       27 2:Iris-versicolor 2:Iris-versicolor       1 
+       28 3:Iris-virginica 3:Iris-virginica       0.985 
+       29 3:Iris-virginica 3:Iris-virginica       1 
+       30 2:Iris-versicolor 2:Iris-versicolor       0.825 
+       31 3:Iris-virginica 3:Iris-virginica       1 
+       32 2:Iris-versicolor 2:Iris-versicolor       0.885 
+       33 2:Iris-versicolor 2:Iris-versicolor       1 
+       34 1:Iris-setosa 1:Iris-setosa       1 
+       35 3:Iris-virginica 3:Iris-virginica       1 
+       36 1:Iris-setosa 1:Iris-setosa       1 
+       37 2:Iris-versicolor 2:Iris-versicolor       1 
+       38 1:Iris-setosa 1:Iris-setosa       1 
+       39 1:Iris-setosa 1:Iris-setosa       1 
+       40 2:Iris-versicolor 2:Iris-versicolor       0.755 
+       41 3:Iris-virginica 3:Iris-virginica       0.98 
+       42 2:Iris-versicolor 2:Iris-versicolor       0.995 
+       43 1:Iris-setosa 1:Iris-setosa       1 
+       44 1:Iris-setosa 1:Iris-setosa       1 
+       45 3:Iris-virginica 3:Iris-virginica       1 
+       46 1:Iris-setosa 1:Iris-setosa       1 
+       47 1:Iris-setosa 1:Iris-setosa       1 
+       48 3:Iris-virginica 2:Iris-versicolor   +   0.88 
+       49 1:Iris-setosa 1:Iris-setosa       1 
+       50 2:Iris-versicolor 2:Iris-versicolor       1 
+       51 1:Iris-setosa 1:Iris-setosa       1 
+       52 3:Iris-virginica 3:Iris-virginica       0.975 
+       53 3:Iris-virginica 3:Iris-virginica       0.96 
+       54 2:Iris-versicolor 2:Iris-versicolor       0.885 
+       55 2:Iris-versicolor 2:Iris-versicolor       1 
+       56 2:Iris-versicolor 2:Iris-versicolor       1 
+       57 1:Iris-setosa 1:Iris-setosa       1 
+       58 3:Iris-virginica 3:Iris-virginica       1 
+       59 2:Iris-versicolor 2:Iris-versicolor       0.89 
+       60 3:Iris-virginica 3:Iris-virginica       1 
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.02 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          57               95      %
+Kappa statistic                          0.9247
+Mean absolute error                      0.0403
+Root mean squared error                  0.1635
+Relative absolute error                  9.041  %
+Root relative squared error             34.5058 %
+Total Number of Instances               60     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,000    1,000      1,000    1,000      1,000    1,000     1,000     Iris-setosa
+                 1,000    0,077    0,875      1,000    0,933      0,899    0,989     0,980     Iris-versicolor
+                 0,864    0,000    1,000      0,864    0,927      0,895    0,989     0,984     Iris-virginica
+Weighted Avg.    0,950    0,027    0,956      0,950    0,950      0,926    0,992     0,987     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 17  0  0 |  a = Iris-setosa
+  0 21  0 |  b = Iris-versicolor
+  0  3 19 |  c = Iris-virginica
+
